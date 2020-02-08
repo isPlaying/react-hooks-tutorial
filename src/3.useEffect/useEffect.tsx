@@ -24,13 +24,15 @@ export const ThirdExample: React.FC<{}> = () => {
 
   useEffect(() => {
     // If you want to run an effect and clean it up only once (on mount and unmount), you can pass an empty array ([]) as a second argument.
-    console.log('render');
+    // 去掉注释可看效果
+    // console.log('render');
   }, [state.firstName]);
 
   useEffect(() => {
     // DOM mutations
     const onMouseMove = (e: MouseEvent) => {
-      console.log(e);
+      // 去掉注释可看效果
+      // console.log(e);
     };
     window.addEventListener('mousemove', onMouseMove);
     return () => {
