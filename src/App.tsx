@@ -5,6 +5,7 @@ import { SecondExample } from './2.customState/customState';
 import { ThirdExample } from './3.useEffect/useEffect';
 import { FourthComponent } from './4.useContext/useContext';
 import { FifthExample } from './5.useRef/useRef';
+import { SixthExample } from './6.useReducer/useReducer';
 
 const App = () => {
   return (
@@ -28,6 +29,10 @@ const App = () => {
       <div className="area">
         useRef Example
         <FifthExample />
+      </div>
+      <div className="area">
+        useReducer example
+        <SixthExample />
       </div>
     </div>
   );
